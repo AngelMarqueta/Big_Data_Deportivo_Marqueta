@@ -4,7 +4,7 @@ Colección de automatizaciones y patrones de código para trabajar con datos de 
 
 ## Contenido
 
-Cada automatización tiene su propio archivo `.py` directamente dentro de `automatizaciones/`. Los prefijos `m1_`, `m2_` y `m3_` conservan la procedencia del material sin crear subcarpetas. El archivo `automatizaciones/catalogo_automatizaciones.py` se conserva como índice de referencia.
+Cada automatización tiene su propio archivo `.py` directamente dentro de `automatizaciones/`. Los nombres de archivo son descriptivos y no llevan prefijos de módulo; no hay nombres repetidos. El archivo `automatizaciones/catalogo_automatizaciones.py` se conserva como índice de referencia.
 
 Las tareas cubren:
 
