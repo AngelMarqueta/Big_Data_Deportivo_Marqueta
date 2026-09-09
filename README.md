@@ -4,7 +4,9 @@ Colección de automatizaciones y patrones de código para trabajar con datos de 
 
 ## Contenido
 
-`automatizaciones/catalogo_automatizaciones.py` reúne las tareas automatizadas desarrolladas para el manual:
+Cada automatización tiene ahora su propio archivo `.py`, organizado en `modulo_1`, `modulo_2` y `modulo_3`. El archivo `automatizaciones/catalogo_automatizaciones.py` se conserva como índice de referencia.
+
+Las tareas cubren:
 
 - Descarga y extracción de datos de partidos.
 - Lectura de tablas HTML y concatenación de temporadas.
@@ -15,6 +17,8 @@ Colección de automatizaciones y patrones de código para trabajar con datos de 
 - Separación de coordenadas espaciales.
 - Mapas de tiros, pases, calor y redes de pase.
 - Exploración de clustering.
+
+Hay 23 automatizaciones independientes. Los nombres de archivo empiezan por un número para facilitar su consulta y mantener el orden del material.
 
 El archivo es un catálogo de funciones y ejemplos. Algunas funciones esperan que el programa principal defina objetos como `pandas.DataFrame`, `eventos` o `pases`.
 
