@@ -4,7 +4,7 @@ Colección de automatizaciones y patrones de código para trabajar con datos de 
 
 ## Contenido
 
-Cada automatización tiene ahora su propio archivo `.py`, organizado en `modulo_1`, `modulo_2` y `modulo_3`. El archivo `automatizaciones/catalogo_automatizaciones.py` se conserva como índice de referencia.
+Cada automatización tiene su propio archivo `.py` directamente dentro de `automatizaciones/`. Los prefijos `m1_`, `m2_` y `m3_` conservan la procedencia del material sin crear subcarpetas. El archivo `automatizaciones/catalogo_automatizaciones.py` se conserva como índice de referencia.
 
 Las tareas cubren:
 
@@ -18,7 +18,7 @@ Las tareas cubren:
 - Mapas de tiros, pases, calor y redes de pase.
 - Exploración de clustering.
 
-Hay 23 automatizaciones independientes. Los nombres de archivo empiezan por un número para facilitar su consulta y mantener el orden del material.
+Hay 23 automatizaciones independientes. Los nombres de archivo empiezan por el módulo y el número para facilitar su consulta y mantener el orden del material.
 
 El archivo es un catálogo de funciones y ejemplos. Algunas funciones esperan que el programa principal defina objetos como `pandas.DataFrame`, `eventos` o `pases`.
 
